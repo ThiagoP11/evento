@@ -20,6 +20,7 @@ public class Categoria {
 
     public Categoria() {
     }
+
     public Categoria(Integer id, String descricao) {
         this.id = id;
         this.descricao = descricao;
@@ -44,4 +45,6 @@ public class Categoria {
     public List<Atividade> getAtividades() {
         return atividades;
     }
+
+
 }
